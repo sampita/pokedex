@@ -8,6 +8,13 @@ _An umbrella application using Elixir, Phoenix, Typescript, and React_
 - Run the following terminal commands:
 
 ```
+
+  ** Clone down repo **
+  $ git clone [SSH-KEY]
+  
+  ** Navigate into project directory **
+  $ cd pokedex
+  
   ** Run Postgres in the background **
   $ docker-compose up -d
 
