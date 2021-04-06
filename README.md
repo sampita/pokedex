@@ -3,7 +3,7 @@ _An umbrella application using Elixir, Phoenix, Typescript, and React_
 
 
 ## Initial Setup:
-- If you do not have **Docker Compose** installed already, [install it](https://docs.docker.com/compose/install/) to be able to run a PostgreSQL server for our Phoenix app. There are other ways to do this, but this is the way I prefer for ease of starting the server up and dealing with service dependencies.
+- If you do not have **Docker Compose** installed already, [install it](https://docs.docker.com/compose/install/) to be able to run a PostgreSQL server for our Phoenix app. There are other ways to do this, but this way it is easy to start the server up and deal with service dependencies.
 
 - Run the following terminal commands:
 
