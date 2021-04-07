@@ -16,7 +16,9 @@ defmodule PokedexWeb.Router do
   scope "/", PokedexWeb do
     pipe_through :browser
 
-    get "/", PageController, :index
+    # default:
+    # get "/", PageController, :index
+    get "/*path", PageController, :index
   end
 
   # Other scopes may use custom stacks.
