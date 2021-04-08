@@ -39,6 +39,10 @@ module.exports = (env, options) => {
             }
           ]
         },
+        {
+          test: /\.scss$/i,
+          use: ["style-loader", "css-loader", "sass-loader"],
+        },
       ]
     },
     resolve: {
